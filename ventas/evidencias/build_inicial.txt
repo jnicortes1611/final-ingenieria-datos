@@ -1,0 +1,58 @@
+ Container examen-ventas-permissions-1 Starting 
+ Container examen-ventas-permissions-1 Started 
+ Container examen-ventas-permissions-1 Waiting 
+ Container examen-ventas-permissions-1 Exited 
+ Container examen-ventas-cli-run-af02077f9703 Creating 
+ Container examen-ventas-cli-run-af02077f9703 Created 
+INICIO dbt ['build']
+[0m12:07:50  Running with dbt=1.9.4
+[0m12:07:50  Registered adapter: duckdb=1.9.2
+[0m12:07:51  Found 2 models, 17 data tests, 1 source, 426 macros
+[0m12:07:51  
+[0m12:07:51  Concurrency: 1 threads (target='local')
+[0m12:07:51  
+[0m12:07:51  1 of 19 START test source_not_null_ventas_raw_ventas__loaded_at ................ [RUN]
+[0m12:07:51  1 of 19 PASS source_not_null_ventas_raw_ventas__loaded_at ...................... [[32mPASS[0m in 0.03s]
+[0m12:07:51  2 of 19 START test source_not_null_ventas_raw_ventas_cantidad .................. [RUN]
+[0m12:07:51  2 of 19 PASS source_not_null_ventas_raw_ventas_cantidad ........................ [[32mPASS[0m in 0.01s]
+[0m12:07:51  3 of 19 START test source_not_null_ventas_raw_ventas_fecha_venta ............... [RUN]
+[0m12:07:51  3 of 19 PASS source_not_null_ventas_raw_ventas_fecha_venta ..................... [[32mPASS[0m in 0.01s]
+[0m12:07:51  4 of 19 START test source_not_null_ventas_raw_ventas_id_venta .................. [RUN]
+[0m12:07:51  4 of 19 PASS source_not_null_ventas_raw_ventas_id_venta ........................ [[32mPASS[0m in 0.01s]
+[0m12:07:51  5 of 19 START test source_not_null_ventas_raw_ventas_precio_unitario ........... [RUN]
+[0m12:07:51  5 of 19 PASS source_not_null_ventas_raw_ventas_precio_unitario ................. [[32mPASS[0m in 0.01s]
+[0m12:07:51  6 of 19 START test source_unique_ventas_raw_ventas_id_venta .................... [RUN]
+[0m12:07:51  6 of 19 PASS source_unique_ventas_raw_ventas_id_venta .......................... [[32mPASS[0m in 0.01s]
+[0m12:07:51  7 of 19 START sql table model analytics.stg_ventas ............................. [RUN]
+[0m12:07:51  7 of 19 OK created sql table model analytics.stg_ventas ........................ [[32mOK[0m in 0.10s]
+[0m12:07:51  8 of 19 START test not_null_stg_ventas_cantidad ................................ [RUN]
+[0m12:07:51  8 of 19 PASS not_null_stg_ventas_cantidad ...................................... [[32mPASS[0m in 0.01s]
+[0m12:07:51  9 of 19 START test not_null_stg_ventas_fecha_venta ............................. [RUN]
+[0m12:07:51  9 of 19 PASS not_null_stg_ventas_fecha_venta ................................... [[32mPASS[0m in 0.01s]
+[0m12:07:51  10 of 19 START test not_null_stg_ventas_id_venta ............................... [RUN]
+[0m12:07:51  10 of 19 PASS not_null_stg_ventas_id_venta ..................................... [[32mPASS[0m in 0.01s]
+[0m12:07:51  11 of 19 START test not_null_stg_ventas_precio_unitario ........................ [RUN]
+[0m12:07:51  11 of 19 PASS not_null_stg_ventas_precio_unitario .............................. [[32mPASS[0m in 0.01s]
+[0m12:07:51  12 of 19 START test unique_stg_ventas_id_venta ................................. [RUN]
+[0m12:07:51  12 of 19 PASS unique_stg_ventas_id_venta ....................................... [[32mPASS[0m in 0.01s]
+[0m12:07:51  13 of 19 START test valores_ventas ............................................. [RUN]
+[0m12:07:51  13 of 19 PASS valores_ventas ................................................... [[32mPASS[0m in 0.01s]
+[0m12:07:51  14 of 19 START sql table model analytics.ventas_diarias ........................ [RUN]
+[0m12:07:51  14 of 19 OK created sql table model analytics.ventas_diarias ................... [[32mOK[0m in 0.02s]
+[0m12:07:51  15 of 19 START test not_null_ventas_diarias_fecha_venta ........................ [RUN]
+[0m12:07:51  15 of 19 PASS not_null_ventas_diarias_fecha_venta .............................. [[32mPASS[0m in 0.01s]
+[0m12:07:51  16 of 19 START test not_null_ventas_diarias_ingreso_total ...................... [RUN]
+[0m12:07:51  16 of 19 PASS not_null_ventas_diarias_ingreso_total ............................ [[32mPASS[0m in 0.01s]
+[0m12:07:51  17 of 19 START test not_null_ventas_diarias_numero_ventas ...................... [RUN]
+[0m12:07:51  17 of 19 PASS not_null_ventas_diarias_numero_ventas ............................ [[32mPASS[0m in 0.01s]
+[0m12:07:51  18 of 19 START test not_null_ventas_diarias_unidades_vendidas .................. [RUN]
+[0m12:07:51  18 of 19 PASS not_null_ventas_diarias_unidades_vendidas ........................ [[32mPASS[0m in 0.01s]
+[0m12:07:51  19 of 19 START test unique_ventas_diarias_fecha_venta .......................... [RUN]
+[0m12:07:51  19 of 19 PASS unique_ventas_diarias_fecha_venta ................................ [[32mPASS[0m in 0.01s]
+[0m12:07:51  
+[0m12:07:51  Finished running 2 table models, 17 data tests in 0 hours 0 minutes and 0.46 seconds (0.46s).
+[0m12:07:51  
+[0m12:07:51  [32mCompleted successfully[0m
+[0m12:07:51  
+[0m12:07:51  Done. PASS=19 WARN=0 ERROR=0 SKIP=0 TOTAL=19
+FIN dbt ['build']

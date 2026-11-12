@@ -21,3 +21,11 @@ crash.*.log
 # Archivos temporales
 __pycache__/
 *.pyc
+
+# Artefactos locales de Python y dbt
+__pycache__/
+*.pyc
+**/dbt/target/
+**/dbt/logs/
+*.duckdb
+*.duckdb.wal
