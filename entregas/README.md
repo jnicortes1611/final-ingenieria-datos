@@ -13,7 +13,15 @@ Prefijos separados: entregas/ y resultados-athena/.
 Recursos y nombres reales: evidencias/outputs.json.
 
 ## Despliegue
-Todos los comandos se ejecutan desde la raíz del repositorio en EC2.
+Todos los comandos de este ejercicio se ejecutan en EC2 desde la carpeta `entregas/` del repositorio combinado:
+
+```bash
+cd final-ingenieria-datos/entregas
+```
+
+Durante el examen esta misma carpeta de trabajo se llamaba `~/final-entregas`.
+Las rutas de archivos indicadas en este README y en `evidencias/ejecuciones_athena.csv` son relativas a la raíz de este ejercicio (`entregas/`). Por ejemplo, `consultas/intentos_por_fecha_estado.sql` corresponde a `entregas/consultas/intentos_por_fecha_estado.sql` desde la raíz del repositorio combinado.
+
 1. Configurar AWS_REGION y AWS_DEFAULT_REGION como us-east-2.
 2. Definir TF_VAR_nombre_bucket con un nombre único que comience con final-ingdatos-.
 3. Ejecutar terraform -chdir=infraestructura init.
