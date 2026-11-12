@@ -1,0 +1,23 @@
+# Credenciales y secretos
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+credentials
+secrets.*
+
+# Terraform: estado, caché y planes
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Archivos temporales
+__pycache__/
+*.pyc

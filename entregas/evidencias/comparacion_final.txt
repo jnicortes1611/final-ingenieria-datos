@@ -1,0 +1,3 @@
+OK: final/intentos_por_fecha_estado.csv
+OK: final/porcentaje_exito_por_fecha_ciudad.csv
+OK: 6 registros del tercer dia y 18 en total

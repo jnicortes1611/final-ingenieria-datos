@@ -1,0 +1,6 @@
+aws-cli/2.40.1 Python/3.14.8 Linux/7.0.0-1014-aws exe/x86_64.ubuntu.26
+Terraform v1.17.2
+on linux_amd64
+
+git version 2.53.0
+Python 3.14.4

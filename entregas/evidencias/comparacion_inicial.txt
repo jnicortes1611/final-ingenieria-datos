@@ -1,0 +1,4 @@
+OK: inicial/intentos_por_fecha_estado.csv
+OK: inicial/porcentaje_exito_por_fecha_ciudad.csv
+OK: inicial/duracion_promedio_2026-10-02.csv
+OK: 12 registros iniciales

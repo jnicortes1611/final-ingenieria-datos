@@ -1,0 +1,27 @@
+{
+  "base_datos": {
+    "sensitive": false,
+    "type": "string",
+    "value": "final_ingdatos_entregas"
+  },
+  "bucket": {
+    "sensitive": false,
+    "type": "string",
+    "value": "final-ingdatos-20261112112243-fef574"
+  },
+  "region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us-east-2"
+  },
+  "tabla": {
+    "sensitive": false,
+    "type": "string",
+    "value": "entregas"
+  },
+  "workgroup": {
+    "sensitive": false,
+    "type": "string",
+    "value": "final-ingdatos-entregas"
+  }
+}
